@@ -29,4 +29,6 @@ background.js: Background script for handling long-running tasks and managing th
 
 # Contributing
 
+For more information or to report any issues, please contact me at me22329@essex.ac.uk.
+
 # License
