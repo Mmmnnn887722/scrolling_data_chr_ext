@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "User Activity Tracker",
+  "version": "2.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+    
+    
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+      
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "scripting",
+    "webNavigation"
+
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+
+}
+
