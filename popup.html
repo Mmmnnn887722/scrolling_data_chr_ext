@@ -1,24 +1,48 @@
-<!-- Defines the document type; it's HTML5 -->
-<!doctype html>
-
+<!-- <!DOCTYPE html>
 <html>
   <head>
-    <!-- Title of the popup window when it's opened -->
-    <title>User Activity Tracker</title>
-  </head>
-  
-  <body>
-    <!-- Start button which, when clicked, likely initiates the recording in the content script -->
-    <button id="start">Start</button>
-
-    <!-- Stop button which, when clicked, likely stops the recording in the content script -->
-    <button id="stop">Stop</button>
-
-    <!-- Link to the JavaScript file that contains the logic for the popup. 
-         This script likely sends messages to the background script to control the recording state. -->
+    <title>Extension Popup</title>
     <script src="popup.js"></script>
+  </head>
+  <body>
+    <button id="start-button">Start Scrolling</button>
+  </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Extension Popup</title>
+    <style>
+      button {
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <button id="start-button">Start Recording</button>
+    <button id="stop-button">Stop Recording</button>
   </body>
 </html>
+ -->
 
 
-
+ <!doctype html>
+ <html>
+   <head>
+     <title>Your Extension Name</title>
+   </head>
+   <body>
+     <button id="start">Start</button>
+     <button id="stop">Stop</button>
+ 
+     <!-- Link to the popup script -->
+     <script src="popup.js"></script>
+   </body>
+ </html>
+ 
